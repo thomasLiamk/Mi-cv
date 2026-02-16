@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Thomas Castañeda Brida Nahomi</title>
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+
+    <!-- ====================
+         HEADER: Tu nombre y título profesional
+         ==================== -->
+    <header>
+        <!-- COMPLETAR: Tu nombre completo -->
+        <h1>Thomas Castañeda Brida Nahomi</h1>
+
+        <!-- COMPLETAR: Tu título profesional o lo que estudias -->
+        <p>Estudiante de Ingeniería de Software 4ºE</p>
+    </header>
+
+    <!-- ====================
+         MAIN: Contenido principal del CV
+         ==================== -->
+    <main>
+
+        <!-- SECCIÓN: Sobre Mí -->
+        <section id="sobre-mi">
+            <h2>Sobre Mí</h2>
+
+            <!-- COMPLETAR: Breve descripción de ti (2-4 líneas) -->
+            <p>
+                Soy estudiante apasionado por la 
+                tecnología y el arte, en busca de oportunidades para aprender y 
+                crecer en el campo de la ingeniería de software. Me gusta trabajar en equipo y enfrentar nuevos desafíos.
+            </p>
+
+            <!-- OPCIONAL: Segundo párrafo si necesitas más espacio -->
+            <p>
+                Me gustan todo el tema de las tecnologias y el arte,
+                me gustaria combinar ambas áreas y estar relacionado en un trabajo que me permita aprender y crecer como persona y profesional.
+            </p>
+        </section>
+
+        <!-- SECCIÓN: Experiencia / Educación -->
+        <section id="experiencia">
+            <h2>Experiencia y Educación</h2>
+
+            <!-- Usamos una lista desordenada para items -->
+            <ul>
+                <!-- COMPLETAR: Item 1 -->
+                <li>
+                    <strong>Universidad de Colima</strong> - 2021-2024
+                    <br>
+                    Bachillerato Tecnico en dibujo - Fisico Matematico
+                </li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN: Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <!-- COMPLETAR: Lista de habilidades -->
+            <ul>
+                <li>Habilidad 1: Trabajo en equipo</li>
+                <li>Habilidad 2: Comunicación efectiva</li>
+                <li>Habilidad 3: Pensamiento crítico</li>
+                <li>Habilidad 4: Dibujo</li>
+            </ul>
+        </section>
+
+        <!-- SECCIÓN: Contacto (Formulario) -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <!-- 
+                FORMULARIO HTML5 CON VALIDACIÓN NATIVA
+                Nota: Esto no envía emails aún (necesita backend), 
+                pero valida que los datos sean correctos
+            -->
+            <form action="#" method="post">
+
+                <!-- Campo de Email con validación automática -->
+                <p>
+                    <label for="email">Tu Email:</label><br>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="bthomas@ucol.mx"
+                        required
+                    >
+                </p>
+
+                <!-- Campo de Nombre (requerido) -->
+                <p>
+                    <label for="nombre">Tu Nombre:</label><br>
+                    <input 
+                        type="text" 
+                        id="nombre" 
+                        name="nombre" 
+                        placeholder="Thomas Castañeda Brida Nahomi"
+                        required
+                        minlength="2"
+                    >
+                </p>
+
+                <!-- Campo de Mensaje -->
+                <p>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea 
+                        id="mensaje" 
+                        name="mensaje" 
+                        rows="4" 
+                        cols="50"
+                        placeholder="Hola mundo jeje :b"
+                        required
+                        minlength="10"
+                    ></textarea>
+                </p>
+
+                <!-- Botón de envío -->
+                <button type="submit">Enviar Mensaje</button>
+
+            </form>
+
+            <!-- Información de contacto directo -->
+            <p>
+                <strong>Email directo:</strong> bthomas@ucol.mx<br>
+                <strong>Teléfono:</strong> 312 301 3131
+            </p>
+        </section>
+
+    </main>
+
+    <!-- ====================
+         FOOTER: Pie de página
+         ==================== -->
+    <footer>
+        <p>&copy; 2026 Thomas Castañeda Brida Nahomi. CV creado con HTML5.</p>
+
+        <!-- OPCIONAL: Enlace a tu GitHub -->
+        <p>
+            <a href="https://github.com/thomasLiamk/Act---Pagina-BASE-HTML5.git" target="_blank">
+                Aqui 
+            </a>
+        </p>
+    </footer>
+
+</body>
+</html>
